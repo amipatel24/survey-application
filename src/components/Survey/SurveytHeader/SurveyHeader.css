@@ -1,0 +1,56 @@
+.survey-header-container {
+  background-color: #6d72f2;
+  display: flex;
+  margin-top: -1%;
+  position: sticky;
+  top: 0;
+  padding: 16px;
+  z-index: 999;
+}
+
+.survey-header-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.survey-header-image {
+  height: 60px;
+}
+
+.survey-header-container h1 {
+  color: white;
+  padding-left: 6%;
+  font-size: 36px;
+  margin: 0;
+}
+
+.header-img {
+  display: flex;
+  align-items: center;
+  margin-left: 1470px;
+}
+
+.header-user-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  margin-left: 5px;
+}
+
+.header-user-name {
+  color: white;
+  margin-left: -60px;
+  font-size: 18px;
+}
+
+.survey-header-container button {
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: rgb(252, 253, 253);
+  border-color: rgb(252, 253, 253);
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 16px;
+}

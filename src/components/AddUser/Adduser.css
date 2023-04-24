@@ -1,0 +1,204 @@
+.Adduser-container{
+    background:#FFFFFF;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin-bottom: 7%;
+    padding: 1%;
+    width: 41%;
+    margin-left: 12%;
+    position: absolute;
+    z-index: 1;
+}
+
+.Adduser::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.Adduser-details-container{
+    margin-left: 80px;
+    margin-top: -30px;
+} 
+
+.Adduser-heading {
+    padding: 10px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #4D4D4D;
+    margin-left: 200px;
+}
+
+.Add-user-form-wrapper {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.Adduser-form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.Adduer-half-field-container {
+    display: flex;
+}
+
+.Adduser-half-input-field {
+    flex-direction: column;
+}
+
+.Adduser-label-title {
+    margin-bottom: -19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 31px;
+    color: #4D4D4D;
+    margin-top: 16px;
+}
+
+.Adduser-input-field {
+    padding: 10px;
+    border: 0;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-right: 130px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.Adduser-input-field-small{
+    padding: 10px;
+    border: 0;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-right: 180px;
+    margin-left: -40px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.Adduser-input-field-large{
+    padding: 10px;
+    border: 0;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-right: 180px;
+    width: 79%;
+    font-size: 16px;
+}
+.Adduser-danger {
+    color: rgb(14, 14, 14);
+    font-size: 0.9rem;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.Adduser-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.Adduser-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Adduser-image-in {
+    width: 100px;
+    height: 100px;
+    background: rgba(217, 217, 217, 0.3);
+    border: 3px dashed #4D4D4D;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+.Adduser-image-info {
+    margin-left: 2%;
+}
+
+.Adduser-image-title {
+    width: 222px;
+    height: 7px;
+    left: 810px;
+    top: 231px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 0px;
+}
+
+.Adduser-image-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Adduser-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+
+.Adduser-cancel-button {
+    width: 100px;
+    height: 35px;
+    left: 1131px;
+    top: 934px;
+    background: #FF2F2F;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 10px;
+}
+
+.Adduser-Create-button {
+    width: 100px;
+    height: 35px;
+    left: 1131px;
+    top: 934px;
+    background: #11963E;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.Adduser-select {
+    padding: 8px;
+    margin-top: -2px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-right: 106px;
+    width: 82%;
+    font-size: 16px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,95 @@
+.img {
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.input {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+textarea {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.survey-button-save_saved {
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+}
+
+.survey-button-save_saved:disabled,
+.survey-button-save_saved[disabled] {
+    background-color: #fff;
+    color: #666666;
+    cursor: not-allowed;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A1A1A;
+}
+
+.footer-btn {
+    border-radius: 10px;
+    border: none;
+    background-color: #11963E;
+    opacity: 0.5;
+    width: 200px;
+    color: white;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-btn:hover {
+    background-color: #11963E;
+    opacity: 1;
+}
+
+.number {
+    font-size: 18px;
+}
+
+.radio-border {
+    display: flex;
+    justify-content: left;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-left: none;
+    padding: 10px 15px;
+}
+
+
+.radio:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.radio-list {
+    border: 1px solid rgb(202, 198, 198);
+    padding: 4px;
+}
+.page-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    background-color: black;
+}
+.page-not-found{
+    color: aliceblue;
+    margin-top: -45%;
+    font-size:9vh;
+}

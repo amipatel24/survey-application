@@ -1,0 +1,195 @@
+.Edituser-container {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin-top: -5%;
+  margin-bottom: 7%;
+  padding: 1%;
+  width: 41%;
+  margin-left: 17%;
+  position: absolute;
+  z-index: 1;
+}
+
+.Edituser::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.Edituser-details-container {
+  margin-left: 40px;
+}
+
+.Edituser-container-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+  color: #4D4D4D;
+}
+
+.Edituser-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Edituser-image-in {
+  width: 100px;
+  height: 100px;
+  background: rgba(217, 217, 217, 0.3);
+  border: 3px dashed #4D4D4D;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 22px;
+}
+
+.Edituser-image-info {
+  margin-left: 5%;
+}
+
+.Edituser-image-title {
+  width: 222px;
+  height: 7px;
+  left: 810px;
+  top: 231px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  margin-top: 0px;
+}
+
+.Edituser-image-text {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.Edituser-wrapper {
+  width: 100%;
+  max-width: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.Edituser-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.Edituser-label {
+  margin-bottom: -19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 21px;
+  line-height: 31px;
+  color: #4D4D4D;
+  margin-top: 16px;
+}
+
+.Edituser-input-field {
+  padding: 10px;
+  border: 0;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  margin-right: 130px;
+  width: 85%;
+  font-size: 16px;
+}
+
+.Edituser-input-field-small {
+  padding: 10px;
+  border: 0;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  margin-right: 180px;
+  margin-left: -40px;
+  width: 79%;
+  font-size: 16px;
+}
+
+.Edituser-is-danger {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.Edituser-is-danger1 {
+  color: rgb(12, 12, 12);
+}
+
+.Edituser-half-field {
+  flex-direction: column;
+}
+
+.Edituser-half-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Edituser-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.Edituser-cancel-btn {
+  width: 100px;
+  height: 35px;
+  left: 1131px;
+  top: 934px;
+  background: #FF2F2F;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border: none;
+  margin-right: 10px;
+}
+
+.Edituser-create-btn {
+  width: 100px;
+  height: 35px;
+  left: 1131px;
+  top: 934px;
+  background: #11963E;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.Edituser-select {
+  padding: 8px;
+  margin-top: -2px;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  margin-right: 106px;
+  width: 88%;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

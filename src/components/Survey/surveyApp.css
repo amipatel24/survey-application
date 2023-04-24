@@ -1,0 +1,44 @@
+.survey-date h2 {
+    font-size: 36px;
+    color: #1A1A1A;
+    font-weight: 700;
+    margin: 40px 0 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.survey-wrapper {
+    margin-bottom: 45px;
+}
+
+.worker-select {
+    padding: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin-right: 106px;
+    margin-left: 600px;
+    width: 31%;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-bottom: 22px;
+}
+
+.survey-heading {
+    display: -webkit-inline-box;
+}
+
+.date h2 {
+    font-size: 36px;
+    color: #1A1A1A;
+    font-weight: 700;
+    margin: 40px 0 30px;
+}
+
+.container h4 {
+    margin-left: 950px;
+    margin-top: -50px;
+}
